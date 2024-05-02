@@ -1,0 +1,82 @@
+
+.bg-dark{
+	background-color: #1a1b1d;
+}
+
+
+.mt-50{
+	margin-top: 50px;
+}
+#canvas{
+    border: 2px solid black;
+}
+
+/* Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Example of a modern font */
+    background: linear-gradient(to right, #75767B, #3D3E43); /* Gradient Background */
+}
+
+/* Card Styling */
+.card {
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box Shadow for depth */
+    overflow: hidden; /* Ensure children don't overflow */
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 10px; /* Rounded form inputs */
+    border: 1px solid #ced4da; /* Light border */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition */
+}
+
+.form-control:focus {
+    border-color: #80bdff; /* Border color on focus */
+    outline: 0; /* Remove default focus outline */
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    color: #fff; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Select Dropdown Styling */
+.selectpicker {
+    appearance: none; /* Remove default appearance */
+    padding: 10px 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ced4da; /* Light border */
+    background-color: #fff; /* White background */
+}
+
+/* Animation Classes */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeIn {
+    animation-name: animate__fadeIn;
+}
+
+/* Additional Classes */
+.mt-50 {
+    margin-top: 50px;
+}
